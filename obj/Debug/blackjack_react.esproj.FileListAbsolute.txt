@@ -1,0 +1,2 @@
+C:\Users\david.rothamel\source\repos\Blackjack_react\Blackjack_react\obj\Debug\blackjack_react.esproj.SuggestedBindingRedirects.cache
+C:\Users\david.rothamel\source\repos\Blackjack_react\Blackjack_react\obj\Debug\blackjack_react.esproj.CoreCompileInputs.cache
