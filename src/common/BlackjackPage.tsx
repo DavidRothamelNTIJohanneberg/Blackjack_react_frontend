@@ -5,7 +5,7 @@ function BlackjackPage(props: { count: number }) {
     const [playerTurn, setPlayerTurn] = useState(1);
 
     const Hands = [
-        { id: 1, name: "David" }, //Name skickas via input, så småningom
+        { id: 1, name: "David" }, //Name skickas via input, så småningom, en vacker dag, alltså inte idag
         { id: 2, name: "Davve" },
         { id: 3, name: "Davveboi" },
         { id: 4, name: "Me" },
@@ -47,9 +47,10 @@ function BlackjackPage(props: { count: number }) {
             </div>
             <div>
                 <h3>{loopThrough[playerTurn - 1].name}</h3>
-                <button onClick={incrementPlayerTurn}>Check</button>
+                <button onClick={incrementPlayerTurn}>Stand</button>
                 <button onClick={incrementPlayerTurn}>Hit</button>
                 <button onClick={incrementPlayerTurn}>Split</button>
+                <button onClick={incrementPlayerTurn}>Double</button>
             </div>
         </div>
     );
